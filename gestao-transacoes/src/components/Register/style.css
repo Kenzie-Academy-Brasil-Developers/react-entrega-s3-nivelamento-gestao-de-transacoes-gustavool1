@@ -1,0 +1,37 @@
+.form-container{
+    margin: 2%;
+}
+form{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+}
+form input {
+    width: inherit;
+    border-radius: 5px;
+    background-color: #282c34;
+    color: #fff;
+    border: 2px solid #706d6d;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 2px;
+}
+form button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 22px;
+    background-color: #4c515e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(152 163 185 / 58%);
+    cursor: pointer;
+    transition: all 1s ease 0s;
+    width: 70%;
+}

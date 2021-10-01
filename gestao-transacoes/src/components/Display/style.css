@@ -1,0 +1,24 @@
+.display-container{
+    width: 100%;
+}
+ul{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+ul h3{
+    width: 100%;
+}
+ul li {
+    list-style: none;
+    border: none;
+    width: 200px;
+    margin: 10px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgba(196,215,238,.788235294117647);
+    color: #fff;
+}
